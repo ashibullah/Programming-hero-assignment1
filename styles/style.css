@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
