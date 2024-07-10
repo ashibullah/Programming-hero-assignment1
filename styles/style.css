@@ -136,7 +136,39 @@ iframe {
 }
 
 
+/* support  */
 
+.support-class{
+    border-radius: 15px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image:  url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position:  center;
+    color: white;
+    /* background-color: aqua; */
+}
+
+
+/* info side  */
+
+.challenge-bar{
+    color: white;
+    margin-top: 40px;
+    height: 50px;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(126, 126, 126);
+    display: flex;
+    justify-content: space-between;
+}
 /* utility  */
 
 .heading {
@@ -165,4 +197,10 @@ iframe {
 }
 .js-bg{
     background-color: rgba(255, 223, 0, 0.05);
+}
+
+.display-align{
+    margin: 0 auto;
+    /* background-color: aqua; */
+    max-width: 1200px;
 }
