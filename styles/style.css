@@ -1,14 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Azeret Mono", monospace;
 }
 
-#hero-holder{
+#hero-holder {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +20,12 @@
     margin-bottom: 70px;
 }
 
-.hero{
+.hero {
     max-width: 900px;
     /* border: 2px solid red; */
 }
 
-.hero-info{
+.hero-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -34,13 +33,14 @@
 }
 
 
-main{
+
+main {
     margin: 0 auto;
     /* background-color: aqua; */
     max-width: 1200px;
 }
 
-.why-dev{
+.why-dev {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -48,38 +48,102 @@ main{
     padding: 80px;
     gap: 25px;
 }
-.why-dev-big-box{
+
+.why-dev-big-box {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.box{
+
+.box {
     display: flex;
     background-color: white;
     padding: 48px;
     justify-content: space-between;
 }
-.info-box{
+
+.info-box {
     text-align: left;
     max-width: 400px;
-    
-    
+
+
+}
+
+
+/* inspiration part  */
+
+.my-inspiration {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 90px;
+    gap: 40px;
+}
+
+.youtube-border {
+    border: 2px solid rgba(13, 19, 33, 0.02);
+    border-radius: 20px;
+    padding: 32px;
+    /* background-color:aqua; */
+}
+
+iframe {
+
+    border-radius: 20px;
+    width: 100vh;
+    height: 450px;
+
+}
+
+/* current stage  */
+.my-current-target {
+    padding: 40px;
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: aqua;
+
+}
+
+.card-holder {
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+    min-height: 200px;
+    background-color: bisque;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(0, 255, 13);
+    max-width: 300px;
+    min-height: 250px;
+    justify-content: center;
 }
 
 /* utility  */
 
-.heading{
+.heading {
     font-size: 28px;
     font-weight: 800;
 }
-.description{
+
+.description {
     font-size: 10px;
 }
-.btn-primary{
-   min-width: 200px;
-   min-height: 50px;
-   border-radius: 5px;
-   background-color: rgba(13, 19, 33, 1);
-   color: white;
-   font-weight: 600;
+
+.btn-primary {
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 5px;
+    background-color: rgba(13, 19, 33, 1);
+    color: white;
+    font-weight: 600;
 }
