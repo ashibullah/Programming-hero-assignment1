@@ -57,9 +57,12 @@ main{
     display: flex;
     background-color: white;
     padding: 48px;
+    justify-content: space-between;
 }
 .info-box{
     text-align: left;
+    max-width: 400px;
+    
     
 }
 
