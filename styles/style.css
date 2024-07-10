@@ -104,29 +104,38 @@ iframe {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 
 .card-holder {
     margin-top: 20px;
     display: flex;
-    text-align: left;
-    min-height: 200px;
-    background-color: bisque;
+    text-align: left;;
+    /* background-color: bisque; */
+    justify-content: center;
     gap: 20px;
-    justify-content: space-around;
+    
+}
+.card-info-holder{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 30px;
 }
 .card{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(0, 255, 13);
-    max-width: 300px;
-    min-height: 250px;
+    /* background-color: rgb(0, 255, 13); */
+    min-width: 300px;
+    min-height: 300px;
     justify-content: center;
+    gap: 20px;
 }
+
+
 
 /* utility  */
 
@@ -146,4 +155,14 @@ iframe {
     background-color: rgba(13, 19, 33, 1);
     color: white;
     font-weight: 600;
+}
+
+.html-bg{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.css-bg{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js-bg{
+    background-color: rgba(255, 223, 0, 0.05);
 }
